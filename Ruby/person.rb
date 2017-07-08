@@ -8,6 +8,7 @@ module ToFile
   end
 end
 
+## The 'module' uses to_s defined in the class -- an implicit contract through duck typing
 
 class Person
   include ToFile
