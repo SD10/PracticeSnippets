@@ -1,0 +1,8 @@
+This is the file to test for regexp matches for a simple grep.
+This word should be found: 'Chocolate'.
+This is another line with the word 'Chocolate'.
+This line doesn't have the target word.
+This is more spam.
+Spam.
+Spam.
+Chocolate should be found on line 8.

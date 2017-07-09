@@ -1,3 +1,4 @@
+
 class Tree
   attr_accessor :children, :node_name
 
@@ -24,6 +25,3 @@ puts
 
 puts 'visiting entire tree'
 ruby_tree.visit_all { |node| puts node.node_name }
-
-
-
